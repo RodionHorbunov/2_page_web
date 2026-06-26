@@ -1,0 +1,55 @@
+/**
+ * 2 Page Web — design tokens
+ */
+
+:root {
+  --font-sans: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+
+  --text-display: 1.75rem;
+  --text-title: 1.25rem;
+  --text-body: 1rem;
+  --text-caption: 0.8125rem;
+
+  --weight-bold: 700;
+  --weight-semibold: 600;
+  --weight-normal: 400;
+
+  --bg-base: #f8f7f4;
+  --bg-elevated: #ffffff;
+  --text-primary: #1c2333;
+  --text-secondary: #5e6578;
+  --text-on-accent: #ffffff;
+
+  --accent-primary: #6366f1;
+  --accent-primary-hover: #4f46e5;
+
+  --radius-md: 12px;
+  --radius-lg: 16px;
+
+  --space-sm: 0.5rem;
+  --space-md: 1rem;
+  --space-lg: 1.5rem;
+  --space-xl: 2rem;
+
+  --shadow-md: 0 4px 16px rgba(28, 35, 51, 0.08);
+  --touch-min: 44px;
+
+  color-scheme: light;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg-base: #0f1419;
+    --bg-elevated: #1a2332;
+    --text-primary: #e8eaef;
+    --text-secondary: #9aa3b5;
+    --text-on-accent: #f8fafc;
+
+    --accent-primary: #818cf8;
+    --accent-primary-hover: #6366f1;
+
+    --shadow-md: 0 4px 16px rgba(0, 0, 0, 0.4);
+
+    color-scheme: dark;
+  }
+}
